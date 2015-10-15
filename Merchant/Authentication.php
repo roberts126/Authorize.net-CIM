@@ -1,6 +1,9 @@
 <?php
 namespace Authorizenet\Merchant;
 
+/**
+ * Main Authentication class.
+ */
 class Authentication
 {
     public $name;

@@ -1,6 +1,9 @@
 <?php
 namespace Authorizenet\Payment;
 
+/**
+ * Main Payment class.
+ */
 class Payment
 {
     public $creditCard;

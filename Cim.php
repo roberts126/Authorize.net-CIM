@@ -1,6 +1,11 @@
 <?php
 namespace Authorizenet;
+
 require_once('XML/Serializer.php');
+
+/**
+ * Main CIM Class
+ */
 class Cim
 {
     const wsdl = 'https://api.authorize.net/soap/v1/Service.asmx?WSDL';
